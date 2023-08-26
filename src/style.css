@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: inter;
+    src: url('/Assets for Swiftpocket/font/inter-v12-latin-300.woff2');
+  }
+
+  @font-face {
+    font-family: interHead;
+    src: url('/Assets for Swiftpocket/font/inter-v12-latin-500.woff2');
+  }
+
+html,
+body,
+#root
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    overflow-x: hidden;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    /* background: ivory; */
+}
+
+:root{
+    --primary-color: #AAF015;
+    --alternate-primary-color: #82b840;
+    --secondary-color: #151A20;
+    --alternate-secondary-color: #546881;
+    --heading-text: 'interHead';
+    --regular-text: 'inter'
+    
+
+}
+
+canvas{
+    touch-action: none;
+}
+
+.htmlPic img {
+    width:1140px;
+    height: 2410px;
+}
+
+button{
+    transition: all ease-in-out 0.5s;
+    
+}
+
+a {
+    cursor: pointer;
+}
+
+#playstore:hover{
+    transform: scale(1.03);
+    background-color: #75a63a;
+}
+
+#appstore:hover{
+    transform: scale(1.03);
+    background-color: #151a20;
+}
+
+#appstore2:hover{
+    transform: scale(1.03);
+    background-color: #47586e;
+}
+
+#iconDown {
+    transition: all ease-in 0.3s;
+
+}
