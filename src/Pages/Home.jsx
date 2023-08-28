@@ -7,16 +7,14 @@ import POS from '../Components/POS'
 import DownloadApp from '../Components/DownloadApp'
 import FAQ from '../Components/FAQ'
 import Footer from '../Components/Footer'
-import {  useProgress, Html, Loader} from '@react-three/drei'
+import { Loader } from '@react-three/drei'
 
-
-  
 const Home = () => {
   return (
-    <div id='home' className='relative w-screen'>
+    <div id='home'>
         <Nav/>
-        <div id='hero' className='flex flex-col sm:flex-row  sm:pr-[5%] pr-[10%] h-screen w-[100vw] '>
-            <div className='sm:w-[50vw] h-[90%] sm:h-[100%] sm:pl-[15%] pl-[10%] flex justify-start items-center z-10'>
+        <div id='hero' className='flex flex-col sm:flex-row sm:pl-[15%] pl-[10%] sm:pr-[5%] pr-[10%] h-screen w-[100vw]'>
+            <div className='sm:w-[50vw] h-[90%] sm:h-[100%] flex justify-start items-center'>
                 <div className='sm:w-[554px] sm:h-[115px] flex flex-col gap-[20px]'>
                   <h1 className='font-bold text-[40px] font-interHead'>Elevate Your Payment Experience With <span className='text-[color:var(--primary-color)]'>Swift</span><span className='text-[#33db0a]' >Cash</span> </h1>
                   <p className="text-wrapper text-[95%]">
@@ -53,11 +51,9 @@ const Home = () => {
                 </div>
             </div> 
 
-            {/* <div className='hidden lg:flex absolute z-0 w-screen h-screen justify-center items-center'> */}
-              
             <div className='hidden lg:flex  md:w-[50vw]'>
+                <Canvas
                 
-                 <Canvas
                     camera={ {
                         fov: 45,
                         near: 0.1,
@@ -67,15 +63,11 @@ const Home = () => {
                 >
                     <Suspense fallback={null}>
 
-                          <Experience/>
-
+                         <Experience/>
+  
                     </Suspense>
                 </Canvas>
                 <Loader/>
-
-
-                {/* <Loader/> */}
-                
 
             </div>
         </div>
