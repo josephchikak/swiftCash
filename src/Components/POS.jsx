@@ -1,6 +1,9 @@
 import React from 'react'
+import { decodeBlurHash } from 'fast-blurhash';
 
 const POS = () => {
+
+  const landingSmall1 =decodeBlurHash('LND,l,WC.TouTejZs:W.xFkBWWah', 32, 32);
   return (
     <div id='POS' className='h-[70vh] md:h-[60vh] lg:h-[70vh] w-screen flex flex-col sm:flex-row '>
         <div className='w-[60vw] sm:w-[50vw] h-[50%] relative '>
@@ -9,8 +12,11 @@ const POS = () => {
                  <path fillRule="evenodd" clipRule="evenodd" d="M29.8498 123.63C55.9306 84.5152 120.19 75.6152 173.384 49.3957C214.095 29.3289 256.461 58.701 306.097 49.3957C368.97 37.609 432.938 -18.0736 486.18 5.9534C546.725 33.2762 584.762 77.0855 591.348 123.63C598.526 174.361 595.765 241.772 522.716 264.181C448.465 286.959 380.817 315.263 298.222 317.687C205.735 320.4 133.287 305.354 51.6539 278.001C-23.9717 252.662 -3.19374 173.187 29.8498 123.63Z" fill="#AAF015"/>
                  </svg>
             </div>
-            <img className='absolute w-[700px] top-[10%] lg:top-[20%] right-[5%] lg:right-[25%] ' src="/Assets for Swiftpocket/mockups/landing3.png" alt="" />
-            <img className='absolute w-[700px] top-[10%] lg:top-[20%] left-[30%] md:left-[25%]' src="/Assets for Swiftpocket/mockups/landing4.png" alt="" />
+         
+            <img loading='lazy' className='absolute w-[700px] top-[10%] lg:top-[20%] right-[5%] lg:right-[25%] ' src="/Assets for Swiftpocket/mockups/landing3.png" alt="" />
+
+            
+            <img loading='lazy' className='absolute w-[700px] top-[10%] lg:top-[20%] left-[30%] md:left-[25%]' src="/Assets for Swiftpocket/mockups/landing4.png" alt="" />
         </div>
 
         <div className='sm:w-[50%] h-[80%] pl-10 flex justify-start items-center'>

@@ -7,11 +7,13 @@ const Iphone = () => {
   return (
     <>    
     <primitive
-        object = {iphone.scene}
-        position-x ={-0.5}
-        position-y ={-0.5}
-
-        scale = {0.6}
+          object = {iphone.scene}
+          position-x ={-0.5}
+          position-y ={-0.5}
+  
+          scale = {0.6}
+        // rotation-y ={5}
+        
     />
 
     </>

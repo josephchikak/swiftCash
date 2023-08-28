@@ -86,14 +86,14 @@ const Info = () => {
         <div className='w-[80vh] h-[45%] flex relative'>
 
           
-          <img className='absolute left-[82%] w-[50px] sm:w-[150px] top-[10%] z-20' src="/Assets for Swiftpocket/arrow TopRight.png" alt="" />
-          <img className='absolute top-[67%] left-[80%] md:top-[75%] lg:top-[70%] md:left-[75%] lg:left-[80%] w-[50px] sm:w-[150px] z-20 lg:rotate-0 md:rotate-[30deg] ' src="/Assets for Swiftpocket/arrowBottomRight.png" alt="" />
+          <img loading='lazy' className='absolute left-[82%] w-[50px] sm:w-[150px] top-[10%] z-20' src="/Assets for Swiftpocket/arrow TopRight.png" alt="" />
+          <img loading='lazy' className='absolute top-[67%] left-[80%] md:top-[75%] lg:top-[70%] md:left-[75%] lg:left-[80%] w-[50px] sm:w-[150px] z-20 lg:rotate-0 md:rotate-[30deg] ' src="/Assets for Swiftpocket/arrowBottomRight.png" alt="" />
 
-            <img ref={iphoneRef1} className='absolute left-[20%] z-10 ' src="/Assets for Swiftpocket/mockups/Landing1.png" alt="iphoneLandingPage" />
-            <img ref={iphoneRef2} className='absolute right-[15%] bottom-[10%]  z-10' src="/Assets for Swiftpocket/mockups/landing2.png" alt="iphoneLandingPage" />
+            <img loading='lazy' ref={iphoneRef1} className='absolute left-[20%] z-10 ' src="/Assets for Swiftpocket/mockups/Landing1.png" alt="iphoneLandingPage" />
+            <img loading='lazy' ref={iphoneRef2} className='absolute right-[15%] bottom-[10%]  z-10' src="/Assets for Swiftpocket/mockups/landing2.png" alt="iphoneLandingPage" />
 
-          <img className='absolute right-[77%] bottom-[35%] w-[50px] sm:top-[10%] sm:w-[150px] z-20' src="/Assets for Swiftpocket/arrowTopLeft.png" alt="" />
-          <img className='absolute left-[32%] bottom-[2%] sm:left-[28%] sm:top-[75%] w-[50px] sm:w-[150px] z-20' src="/Assets for Swiftpocket/arrowLeftBottom.png" alt="" />
+          <img loading='lazy' className='absolute right-[77%] bottom-[35%] w-[50px] sm:top-[10%] sm:w-[150px] z-20' src="/Assets for Swiftpocket/arrowTopLeft.png" alt="" />
+          <img loading='lazy' className='absolute left-[32%] bottom-[2%] sm:left-[28%] sm:top-[75%] w-[50px] sm:w-[150px] z-20' src="/Assets for Swiftpocket/arrowLeftBottom.png" alt="" />
 
           <div className='w-[195px] h-[454px] sm:w-[395px] sm:h-[454px] absolute z-0 top-[25%] sm:top-0 left-[25%]'>
               <svg width="" height="" viewBox="0 0 395 454" fill="none" xmlns="http://www.w3.org/2000/svg">

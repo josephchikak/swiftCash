@@ -85,9 +85,9 @@ const DownloadApp = () => {
           <div className=' w-[50%] h-[100%] flex justify-center'>
 
             <div className='w-[60%] h-[90%] sm:hidden lg:flex relative '>
-              <img ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[80px] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="" />
-              <img ref={card2ref} id='cardBlack'  className='absolute w-[70%] top-[30px] left-[140px] z-0 ' src="/Assets for Swiftpocket/mockups/Card2.png" alt="" />
-              <img  ref={card3ref} id='cardOrange'  className='absolute w-[85%] top-[30px] left-[140px] z-10 ' src="/Assets for Swiftpocket/mockups/Card3.png" alt="" />
+              <img loading='lazy' ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[80px] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="card1" />
+              <img loading='lazy' ref={card2ref} id='cardBlack'  className='absolute w-[70%] top-[30px] left-[140px] z-0 ' src="/Assets for Swiftpocket/mockups/Card2.png" alt="card2" />
+              <img loading='lazy'  ref={card3ref} id='cardOrange'  className='absolute w-[85%] top-[30px] left-[140px] z-10 ' src="/Assets for Swiftpocket/mockups/Card3.png" alt="card3" />
             </div>
 
            
