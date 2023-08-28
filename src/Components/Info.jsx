@@ -75,7 +75,7 @@ const Info = () => {
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Virtual Card</span><br/> Get a free Swift virtual wallet<br/>after registering
           </p>
           
-          <p id='transactions' ref={transactionRef} className=' text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute  bottom-[25%] left-[55%] md:left-[65%] lg:left-[70%] md:bottom-[6%] lg:bottom-[10%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
+          <p id='transactions' ref={transactionRef} className=' text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute  bottom-[22%] left-[55%] md:left-[65%] lg:left-[70%] md:bottom-[6%] lg:bottom-[10%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Transactions</span><br/> Perform basic bank transactions <br/>with Swift Account
           </p>
 
