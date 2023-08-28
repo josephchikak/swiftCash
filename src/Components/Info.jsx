@@ -63,11 +63,11 @@ const Info = () => {
     <div className='h-screen p-2 w-screen bg-[color:var(--secondary-color)] flex justify-center items-center text-white text-right font-inter relative sm:leading-8'>
       <div lassName='h-screen p-2  relative'>
 
-        <p id='swiftPay' ref={swiftRef} className='text-[12px] md:text-[15px] lg:text-[18px] absolute right-[60%] bottom-[20%] sm:right-[62%] md:bottom-[5%] lg:bottom-[10%] z-40 w-[80%] sm:w-[100%] break-normal  sm:leading-8'>
+        <p id='swiftPay' ref={swiftRef} className='text-[12px] md:text-[15px] lg:text-[18px] absolute right-[60%] bottom-[17%] sm:right-[62%] md:bottom-[5%] lg:bottom-[10%] z-40 w-[80%] sm:w-[100%] break-normal  sm:leading-8'>
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Swift Pay</span><br/> Make POS payments with   <br/>your smart phone
           </p>
 
-          <p id='wallet' ref={walletRef} className='-rotate-90 sm:rotate-0 text-[12px] sm:text-right text-left md:text-[15px] lg:text-[18px] absolute right-[50%] md:right-[80%] lg:right-[72%] bottom-[70%] lg:bottom-[63%] w-[80%] sm:w-[100%] break-normal z-40  sm:leading-8'>
+          <p id='wallet' ref={walletRef} className='-rotate-90 sm:rotate-0 text-[12px] sm:text-right text-left md:text-[15px] lg:text-[18px] absolute right-[50%] md:right-[80%] lg:right-[72%] bottom-[72%] lg:bottom-[63%] w-[80%] sm:w-[100%] break-normal z-40  sm:leading-8'>
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Wallet</span><br/> Acess all your cards in a <br/>secured virtual wallet
           </p>
 
@@ -75,7 +75,7 @@ const Info = () => {
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Virtual Card</span><br/> Get a free Swift virtual wallet<br/>after registering
           </p>
           
-          <p id='transactions' ref={transactionRef} className=' text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute  bottom-[28%] left-[55%] md:left-[65%] lg:left-[70%] md:bottom-[6%] lg:bottom-[10%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
+          <p id='transactions' ref={transactionRef} className=' text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute  bottom-[25%] left-[55%] md:left-[65%] lg:left-[70%] md:bottom-[6%] lg:bottom-[10%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
             <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Transactions</span><br/> Perform basic bank transactions <br/>with Swift Account
           </p>
 
@@ -87,7 +87,7 @@ const Info = () => {
 
           
           <img loading='lazy' className='absolute left-[82%] w-[50px] sm:w-[150px] top-[10%] z-20' src="/Assets for Swiftpocket/arrow TopRight.png" alt="" />
-          <img loading='lazy' className='absolute top-[67%] left-[80%] md:top-[75%] lg:top-[70%] md:left-[75%] lg:left-[80%] w-[50px] sm:w-[150px] z-20 lg:rotate-0 md:rotate-[30deg] ' src="/Assets for Swiftpocket/arrowBottomRight.png" alt="" />
+          <img loading='lazy' className='absolute top-[67%] left-[80%] md:top-[75%] lg:top-[70%] md:left-[75%] lg:left-[80%] w-[50px] sm:w-[150px] z-20 lg:rotate-0 rotate-[30deg] ' src="/Assets for Swiftpocket/arrowBottomRight.png" alt="" />
 
             <img loading='lazy' ref={iphoneRef1} className='absolute left-[20%] z-10 ' src="/Assets for Swiftpocket/mockups/Landing1.png" alt="iphoneLandingPage" />
             <img loading='lazy' ref={iphoneRef2} className='absolute right-[15%] bottom-[10%]  z-10' src="/Assets for Swiftpocket/mockups/landing2.png" alt="iphoneLandingPage" />
