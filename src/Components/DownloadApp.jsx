@@ -15,7 +15,7 @@ const DownloadApp = () => {
     const el2 = card2ref.current
     const el3 = card3ref.current
 
-    gsap.fromTo(el1, {rotation:0 , x:0, zIndex:100}, {rotation: -55, x:205, y:-90, zIndex:50, duration:2, delay:2, scrollTrigger:{
+    gsap.fromTo(el1, {rotation:0 , x:0, zIndex:100}, {rotation: -50, x:200, y:-90, zIndex:50, duration:2, delay:2, scrollTrigger:{
       trigger:el1,
       scrub:1
     }})
@@ -82,12 +82,12 @@ const DownloadApp = () => {
             </div>
           </div>
 
-          <div className=' sm:w-[70%] h-[100%] sm:hidden lg:flex flex justify-center'>
+          <div className=' sm:w-[60%] h-[100%] sm:hidden lg:flex flex justify-center'>
 
             <div className='sm:w-[50%] sm:h-[100%]  relative '>
-              <img loading='lazy' ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[80px] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="card1" />
-              <img loading='lazy' ref={card2ref} id='cardBlack'  className='absolute w-[70%] top-[30px] left-[140px] z-0 invisible sm:visible ' src="/Assets for Swiftpocket/mockups/Card2.png" alt="card2" />
-              <img loading='lazy'  ref={card3ref} id='cardOrange'  className='absolute w-[85%] top-[30px] left-[140px] z-10 ' src="/Assets for Swiftpocket/mockups/Card3.png" alt="card3" />
+              <img loading='lazy' ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[28%] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="card1" />
+              <img loading='lazy' ref={card2ref} id='cardBlack'  className='absolute w-[70%] top-[20%] left-[140px] z-0 invisible sm:visible ' src="/Assets for Swiftpocket/mockups/Card2.png" alt="card2" />
+              <img loading='lazy'  ref={card3ref} id='cardOrange'  className='absolute w-[85%] top-[20%] left-[140px] z-10 ' src="/Assets for Swiftpocket/mockups/Card3.png" alt="card3" />
             </div>
           </div>
 
