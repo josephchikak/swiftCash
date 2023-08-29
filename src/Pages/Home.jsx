@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='sm:w-[554px] sm:h-[115px] flex flex-col gap-[20px]'>
                   <h1 className='font-bold text-[40px] font-interHead'>Elevate Your Payment Experience With <span className='text-[color:var(--primary-color)]'>Swift</span><span className='text-[#33db0a]' >Cash</span> </h1>
                   <p className="text-wrapper text-[95%]">
-                     Save all your cards in a secured virtual wallet and enjoy non-contactless payment with just your phone.
+                     Save all your cards in a secured virtual wallet and enjoy contactless payment with just your phone.
                   </p>
                   <div className='flex gap-[30px] h-fit  text-white'>
                     <button id='playstore' className='flex justify-center items-center gap-[10px] bg-[color:var(--alternate-primary-color)] p-[10px] sm:p-[12px] sm:w-[200px] h-fit w-full rounded-[10px]'>

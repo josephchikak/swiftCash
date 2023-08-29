@@ -60,30 +60,32 @@ const Info = () => {
 
 
   return (
-    <div className='h-screen p-2 w-screen bg-[color:var(--secondary-color)] flex justify-center items-center text-white text-right font-inter relative sm:leading-8'>
+    <div id='info' className='h-screen p-2 w-screen bg-[color:var(--secondary-color)] flex justify-center items-center text-white text-right font-inter relative sm:leading-8'>
       <div lassName='h-screen p-2  relative'>
 
-        <p id='swiftPay' ref={swiftRef} className='text-[12px] md:text-[15px] lg:text-[18px] absolute right-[60%] bottom-[17%] sm:right-[62%] md:bottom-[5%] lg:bottom-[10%] z-40 w-[80%] sm:w-[100%] break-normal  sm:leading-8'>
-            <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Swift Pay</span><br/> Make POS payments with   <br/>your smart phone
-          </p>
-
-          <p id='wallet' ref={walletRef} className='-rotate-90 sm:rotate-0 text-[12px] sm:text-right text-left md:text-[15px] lg:text-[18px] absolute right-[50%] md:right-[80%] lg:right-[72%] bottom-[72%] lg:bottom-[63%] w-[80%] sm:w-[100%] break-normal z-40  sm:leading-8'>
-            <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Wallet</span><br/> Acess all your cards in a <br/>secured virtual wallet
-          </p>
-
-          <p id='virtualCard'ref={virtualRef}  className='text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute md:left-[70%] lg:left-[75%] left-[55%] bottom-[74%] lg:bottom-[63%] w-[80%] sm:w-[100%] break-normal  z-40  sm:leading-8'>
-            <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Virtual Card</span><br/> Get a free Swift virtual wallet<br/>after registering
-          </p>
-          
-          <p id='transactions' ref={transactionRef} className=' text-[12px]  md:text-[15px] lg:text-[18px]  text-left absolute  bottom-[22%] left-[55%] md:left-[65%] lg:left-[70%] md:bottom-[6%] lg:bottom-[10%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
-            <span className='text-[20px] sm:text-[25px] text-bold font-interHead'>Transactions</span><br/> Perform basic bank transactions <br/>with Swift Account
-          </p>
+       
 
       </div>
         
 
 
         <div className='w-[80vh] h-[45%] flex relative'>
+
+        <p id='swiftPay' ref={swiftRef} className='text-[0.7rem] md:text-[15px] lg:text-[18px] absolute right-[60%] top-[100%] sm:right-[70%] md:top-[105%] md:right-[75%] lg:top-[125%] z-40 w-[80%] sm:w-[100%] break-normal  sm:leading-8'>
+            <span className='text-[18px] sm:text-[25px] text-bold font-interHead'>Swift Pay</span><br/> Make POS payments with   <br/>your smart phone
+          </p>
+
+          <p id='wallet' ref={walletRef} className='-rotate-90 sm:rotate-0 text-[0.7rem] sm:text-right text-left md:text-[15px] lg:text-[18px] absolute right-[52%] md:right-[85%] md:bottom-[95%] lg:right-[100%] bottom-[90%] lg:bottom-[70%] w-[80%] sm:w-[100%] break-normal z-40  sm:leading-8'>
+            <span className='text-[18px] sm:text-[25px] text-bold font-interHead'>Wallet</span><br/> Acess all your cards in a <br/>secured virtual wallet
+          </p>
+
+          <p id='virtualCard'ref={virtualRef}  className='text-[0.7rem]  md:text-[15px] lg:text-[18px]  text-left absolute md:left-[85%] md:bottom-[95%] lg:left-[101%] left-[60%] bottom-[105%] lg:bottom-[90%] w-[80%] sm:w-[100%] break-normal  z-40  sm:leading-8'>
+            <span className='text-[18px] sm:text-[25px] text-bold font-interHead'>Virtual Card</span><br/> Get a free Swift virtual wallet<br/>after registering
+          </p>
+          
+          <p id='transactions' ref={transactionRef} className=' text-[0.7rem]  md:text-[15px] lg:text-[18px]  text-left absolute  -bottom-[5%] left-[55%] md:left-[75%] lg:left-[90%] md:top-[130%] lg:top-[105%] z-40 w-[80%] sm:w-[90%] break-normal  sm:leading-8'>
+            <span className='text-[18px] sm:text-[25px] text-bold font-interHead'>Transactions</span><br/> Perform basic bank transactions <br/>with Swift Account
+          </p>
 
           
           <img loading='lazy' className='absolute left-[82%] w-[50px] sm:w-[150px] top-[10%] z-20' src="/Assets for Swiftpocket/arrow TopRight.png" alt="" />
