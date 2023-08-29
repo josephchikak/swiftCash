@@ -88,7 +88,7 @@ const Info = () => {
             <img loading='lazy' ref={iphoneRef2} className='absolute right-[15%] bottom-[10%]  z-10' src="/Assets for Swiftpocket/mockups/landing2.png" alt="iphoneLandingPage" />
 
           <img loading='lazy' className='absolute right-[77%] bottom-[35%] w-[50px] sm:top-[10%] sm:w-[15%] z-20' src="/Assets for Swiftpocket/arrowTopLeft.png" alt="" />
-          <img loading='lazy' className='absolute left-[36%] bottom-[5%] sm:left-[32%] sm:top-[75%] w-[50px] sm:w-[15%] z-20' src="/Assets for Swiftpocket/arrowLeftBottom.png" alt="" />
+          <img loading='lazy' className='absolute left-[34%] bottom-[0] sm:left-[32%] sm:top-[75%] w-[50px] sm:w-[15%] z-20' src="/Assets for Swiftpocket/arrowLeftBottom.png" alt="" />
 
           <div className='w-[195px] h-[454px] sm:w-[395px] sm:h-[454px] absolute z-0 top-[25%] sm:top-0 left-[25%]'>
               <svg width="" height="" viewBox="0 0 395 454" fill="none" xmlns="http://www.w3.org/2000/svg">

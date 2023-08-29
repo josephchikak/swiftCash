@@ -46,7 +46,7 @@ const DownloadApp = () => {
 
 
   return (
-    <div id='download' className='text-white w-screen h-[50vh] sm:h-[60vh] flex justify-center items-center p-5 mt-5'>
+    <div id='download' className='text-white w-screen h-[50vh] sm:h-[55vh] flex justify-center items-center p-5 mt-5'>
         <div id='cardBg' className='bg-[color:var(--secondary-color)] w-[90%] h-[80%] rounded-[30px] flex justify-start items-center pl-[5%] pr-[5%]'>
           <div className='' >
             <div className='flex text-[90%] flex-col gap-[15px] justify-start content-center w-[100%]'> 
@@ -85,7 +85,7 @@ const DownloadApp = () => {
           <div className=' sm:w-[60%] h-[100%] sm:hidden lg:flex flex justify-center'>
 
             <div className='sm:w-[50%] sm:h-[100%]  relative '>
-              <img loading='lazy' ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[28%] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="card1" />
+              <img loading='lazy' ref={card1ref} id='cardBlue' className='absolute w-[100%] top-[30%] left-[140px] z-20  ' src="/Assets for Swiftpocket/mockups/card1.png" alt="card1" />
               <img loading='lazy' ref={card2ref} id='cardBlack'  className='absolute w-[70%] top-[20%] left-[140px] z-0 invisible sm:visible ' src="/Assets for Swiftpocket/mockups/Card2.png" alt="card2" />
               <img loading='lazy'  ref={card3ref} id='cardOrange'  className='absolute w-[85%] top-[20%] left-[140px] z-10 ' src="/Assets for Swiftpocket/mockups/Card3.png" alt="card3" />
             </div>
